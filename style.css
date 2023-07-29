@@ -59,6 +59,10 @@ body{
     font-weight: bold;
 
 }
+.resume:hover{
+    background-color: #ff944b;  
+    transition: 1s;
+}
 
 .dropdown-menu li a{
     display: flex;
