@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    scroll-behavior: smooth;
+}
+body{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    position: relative !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+.whatsapp a{
+    
+    background-color: #25d366;
+    color: white;
+    padding:5px 20px;
+    border-radius: 50px;
+    position: fixed;
+    right: 2%;
+    bottom: 8%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 5px 0px gray;
+    
+}
+.whatsapp a span:hover{
+    color: #f60;
+}
+#nav{
+    padding: 10px 30px;
+}
+
+#nav , #logo{
+    transition: 0.4s;
+}
+.navbar{
+    opacity: 0.95;
+    background-color: #095cac;
+    border-bottom: 2px solid white;
+    
+}
+.nav-link {
+    margin: 0px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:hover{
+    color: #ff944b;
+}
+
+.resume{
+    color: #095cac;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+.dropdown-menu li a{
+    display: flex;
+    align-items: center;
+}
+.dropdown-menu li a:hover{
+    color: #f60;
+}
+.dropdown-menu li a span{
+    font-weight: 300;
+    font-family: auto;
+}
+.dropdown-menu li img , .dropdown-menu li i{
+    margin-right:5px ;
+}
+
+/* main content css */
+
+.fs-heading{
+    width: 40%;
+}
+.fs-heading h1{
+   font-size: 4rem;
+}
+.fs-heading h1 a{
+    color: #f60;
+    background-color: rgb(255, 243, 236);
+    padding: 2px 0px;
+    font-size: 3rem;
+}
+.start-learning{
+    background-color: #f60;
+    border: none !important;
+    padding: 10px 0px;
+    width: 80%;
+}
+.placed-students{
+    width: 40%;
+}
+
+/* second div css  */
+.second-div{
+    background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,#f60 650%);
+}
+.community-heading{
+    width: 40%;
+}
+.community-heading h5{
+    margin: 10px 0px ;
+}
+.community-count{
+    width: 40%;
+}
+.count h1{
+    padding: 10px;
+    margin: 0px 5px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: black !important;
+    color: white !important;
+}
+
+
+/* third section start  */
+
+.third-div{
+    background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,rgb(255, 142, 240) 650%);
+}
+
+/* 4 section  */
+
+.rating-box{
+    width: 40%;
+    background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,#f60 650%);
+}
+
+.images-avatar img{
+border-radius: 15px;
+margin: -3px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    
+    .nav-link{
+        padding: 10px 0px;
+        margin: 0px;
+        font-size: 1rem;
+    }
+    .btns a{
+        display: block;
+        margin: 10px 0px ;
+    }
+    .fs-heading{
+        
+        width: 80%;
+    }
+    .placed-students{
+        width: 80%;
+    }
+
+
+    .community-heading{
+        width: 80%;
+    }
+    .community-count{
+        width: 80%;
+    }
+    .rating-box{
+        width: 90%;
+    }
+
+    .whatsapp a{
+    
+        background-color: #25d366;
+        color: white;
+        padding:5px 10px;
+        border-radius: 50%;
+        position: fixed;
+        right: 5%;
+        bottom: 5%;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        box-shadow: 1px 1px 5px 0px gray;
+        
+    }
+}
