@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -8,7 +10,8 @@
 body{
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     position: relative !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     background-color: #f3f3f3;
 }
 .whatsapp a{
@@ -32,7 +35,12 @@ body{
 #nav{
     padding: 10px 30px;
 }
-
+#logo .logo_name{
+    font-size: 1.5rem;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+}
 #nav , #logo{
     transition: 0.4s;
 }
@@ -61,7 +69,8 @@ body{
 }
 .resume:hover{
     background-color: #ff944b;  
-    transition: 1s;
+    transition: 0.5s;
+    color: white;
 }
 
 .dropdown-menu li a{
@@ -80,7 +89,10 @@ body{
 }
 
 /* main content css */
-
+.main-div{
+    /* background-image: url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg"); */
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
+}
 .fs-heading{
     width: 40%;
 }
@@ -91,7 +103,7 @@ body{
     color: #f60;
     background-color: rgb(255, 243, 236);
     padding: 2px 0px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .start-learning{
     background-color: #f60;
