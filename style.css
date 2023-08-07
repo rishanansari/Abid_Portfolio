@@ -52,7 +52,7 @@ body{
 }
 .nav-link {
     margin: 0px 20px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: white;
 }
@@ -63,7 +63,7 @@ body{
 
 .resume{
     color: #095cac;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 
 }
@@ -130,6 +130,7 @@ body{
     padding: 10px 0px;
     width: 80%;
 }
+
 .placed-students{
     width: 40%;
 }
@@ -143,7 +144,7 @@ body{
 .about-heading{
     width: 40%;
 }
-.about-heading h3{
+.about-heading h2{
     color:#f60 ;
 }
 .about-heading h5{
@@ -226,7 +227,7 @@ margin: -3px;
         text-align: center !important;
      }
      .fs-heading h1 a{
-         font-size: 1.5rem;
+         font-size: 1.6rem;
          text-align: center !important;
      }
      .sub-heading{
@@ -240,9 +241,13 @@ margin: -3px;
         text-align: center !important;
     }
 
+    /* section 2 about me  */
     .about-heading{
         width: 80%;
         text-align: center;
+    }
+    .about-me h1{
+        font-size: 2rem !important;
     }
     .about-count{
         width: 80%;
