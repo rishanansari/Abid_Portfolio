@@ -92,7 +92,26 @@ body{
 .main-div{
     /* background-image: url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg"); */
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
+    position: relative;
 }
+.social_links{
+    position: absolute;
+    left: 0px;
+    top: 170px;
+    width: 45px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #f1efeb;
+}
+
+.slink i{
+    font-size: 1.5rem !important;
+    color: black !important;
+}
+.slink i:hover{
+    color: #f60 !important;
+}
+
 .fs-heading{
     width: 40%;
 }
@@ -115,17 +134,22 @@ body{
     width: 40%;
 }
 
-/* second div css  */
+/* second section about me div css  */
 .second-div{
-    background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,#f60 650%);
+    /* background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,#095cac 650%);
+     */
+     background-color: #3f6cc7;
 }
-.community-heading{
+.about-heading{
     width: 40%;
 }
-.community-heading h5{
+.about-heading h3{
+    color:#f60 ;
+}
+.about-heading h5{
     margin: 10px 0px ;
 }
-.community-count{
+.about-count{
     width: 40%;
 }
 .count h1{
@@ -135,6 +159,15 @@ body{
     border-radius: 5px;
     background-color: black !important;
     color: white !important;
+}
+
+.join{
+    color: #f60;
+}
+
+.join-logo a img{
+    background-color: white !important;
+    border-radius: 50%;
 }
 
 
@@ -171,23 +204,47 @@ margin: -3px;
         margin: 0px;
         font-size: 1rem;
     }
+    #nav{
+        padding: 10px 20px !important;
+    }
     .btns a{
         display: block;
         margin: 10px 0px ;
     }
+
+    .social_links{
+       display: none !important;
+    
+    }
+
     .fs-heading{
-        
+        order: 2;
         width: 80%;
     }
+    .fs-heading h1{
+        font-size: 3rem;
+        text-align: center !important;
+     }
+     .fs-heading h1 a{
+         font-size: 1.5rem;
+         text-align: center !important;
+     }
+     .sub-heading{
+        text-align: center !important;
+     }
     .placed-students{
         width: 80%;
+        order: 1;
+    }
+    .start-btn{
+        text-align: center !important;
     }
 
-
-    .community-heading{
+    .about-heading{
         width: 80%;
+        text-align: center;
     }
-    .community-count{
+    .about-count{
         width: 80%;
     }
     .rating-box{
