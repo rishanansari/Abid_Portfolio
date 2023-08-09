@@ -175,9 +175,23 @@ body{
 /* third section start  */
 
 .third-div{
-    background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,rgb(255, 142, 240) 650%);
+    /* background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,rgb(255, 142, 240) 650%); */
+    background-color: white;
 }
 
+.exp-logo{
+    width: 30%;
+}
+.comapny-logo img{
+    background-color: white !important;
+}
+
+.exp-heading{
+    width: 50%;
+}
+.exp-heading h2{
+    color: #f60;
+}
 /* 4 section  */
 
 .rating-box{
@@ -256,6 +270,15 @@ margin: -3px;
         width: 90%;
     }
 
+
+    /* third section  */
+
+    .exp-logo{
+        width: 80%;
+    }
+    .exp-heading{
+        width: 80%;
+    }
     .whatsapp a{
     
         background-color: #25d366;
