@@ -192,6 +192,36 @@ body{
 .exp-heading h2{
     color: #f60;
 }
+
+
+/* 4 section projects  */
+
+.github{
+    color: white;
+    background-color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.github:hover{
+    background-color: #ff944b;
+    transition: 0.5s;
+}
+
+
+.deploy{
+    color: white;
+    background-color: #3f6cc7;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.deploy:hover{
+    background-color: #ff944b;
+    transition: 0.5s;
+}
+
+
 /* 4 section  */
 
 .rating-box{
@@ -294,4 +324,24 @@ margin: -3px;
         box-shadow: 1px 1px 5px 0px gray;
         
     }
+
+
+
+     /* secyion 4 projects  */
+
+    .my_projects h1{
+        font-size: 2rem !important;   
+    }
+
+    .github{
+        
+        font-size: 1rem;
+    
+    }
+    .deploy{
+        
+        font-size: 1rem;
+    
+    }
+
 }
