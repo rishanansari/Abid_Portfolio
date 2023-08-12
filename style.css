@@ -221,6 +221,18 @@ body{
     transition: 0.5s;
 }
 
+.project-logo{
+    width: 40%;
+}
+.project-heading{
+    width: 50%;
+}
+.project-heading h2{
+    color: #f60;
+}
+
+
+
 
 /* 4 section  */
 
@@ -343,5 +355,10 @@ margin: -3px;
         font-size: 1rem;
     
     }
-
+    .project-logo{
+        width: 80%;
+    }
+    .project-heading{
+        width: 80%;
+    }
 }
