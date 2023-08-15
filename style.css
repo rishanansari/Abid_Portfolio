@@ -257,22 +257,31 @@ body{
     color: #f60;
 }
 
-/* 4 section  */
+/* contact us section  */
 
-.rating-box{
+.contact-div{
+
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
+        position: relative;
+}
+
+
+.social-logo a img{
+    /* background-color: white !important; */
+    border-radius: 50%;
+}
+
+.contact-illustrate{
     width: 40%;
-    background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,#f60 650%);
 }
 
-.images-avatar img{
-border-radius: 15px;
-margin: -3px;
+.contact-count{
+    width: 40%;
 }
-
-
-
-
-
+.contact-count h5{
+    color: #095cac;
+    font-weight: bold;
+}
 
 
 
@@ -391,7 +400,13 @@ margin: -3px;
     width: 35%;
  }
 
+ .contact-illustrate{
+    width: 90%;
+}
 
+.contact-count{
+    width: 90%;
+}
 
 
 
