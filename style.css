@@ -234,10 +234,27 @@ body{
 
 
 /* //section 5 framework and lang  */
+.fifth-div{
 
+    background-color: #3f6cc7;
+}
 
 .lang-logo{
     width: 15%;
+}
+
+.lang-logo:hover{
+    scale: 1.05;
+    transition: all 0.5s;
+    .lang-name{
+        color: #f60;
+    };
+}
+.lang-name{
+    color: #095cac;
+}
+.lang-name:hover{
+    color: #f60;
 }
 
 /* 4 section  */
@@ -367,4 +384,25 @@ margin: -3px;
     .project-heading{
         width: 80%;
     }
+
+ /* 5 section lang and framework  */
+
+ .lang-logo{
+    width: 35%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
