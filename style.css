@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -11,6 +13,7 @@ body{
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     position: relative !important;
     font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'PT Sans Narrow', sans-serif; */
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     background-color: #f3f3f3;
 }
@@ -31,6 +34,9 @@ body{
 }
 .whatsapp a span:hover{
     color: #f60;
+}
+.navbar-toggler{
+    color: white !important;
 }
 #nav{
     padding: 10px 30px;
@@ -117,6 +123,7 @@ body{
 }
 .fs-heading h1{
    font-size: 4rem;
+   font-family: 'PT Sans Narrow', sans-serif; 
 }
 .fs-heading h1 a{
     color: #f60;
@@ -282,6 +289,10 @@ body{
     color: #095cac;
     font-weight: bold;
 }
+.contact-count h5 img{
+    border: 1px solid #ff6f00b0;
+    border-radius: 5px;
+}
 
 
 
@@ -291,7 +302,7 @@ body{
     .nav-link{
         padding: 10px 0px;
         margin: 0px;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     #nav{
         padding: 10px 20px !important;
