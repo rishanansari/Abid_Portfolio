@@ -371,6 +371,10 @@ body{
         width: 80%;
         order: 1;
     }
+
+    .student1 img{
+        width: 80% !important;
+    }
     .start-btn{
         text-align: center !important;
     }
@@ -445,6 +449,7 @@ body{
  .lang-logo{
     width: 35%;
  }
+ 
 
  .contact-illustrate{
     width: 90%;
