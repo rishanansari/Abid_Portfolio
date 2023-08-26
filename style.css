@@ -288,7 +288,7 @@ body{
 
 .lang-logo:hover{
     scale: 1.05;
-    transition: all 0.5s;
+    transition: all 0.5s !important;
     .lang-name{
         color: #f60;
     };
