@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+
+    <!-- preloader  -->
+    <div id="preloader"></div>
     <!-- This section is for contact us directly on WhatsApp  -->
     <!-- desktop view   -->
     <div class="whatsapp d-none d-md-block">
@@ -589,6 +591,10 @@ TxtType.prototype.tick = function() {
 };
 
 window.onload = function() {
+    var loader = document.getElementById("preloader");
+    loader.style.display = "none";
+
+
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
@@ -602,6 +608,7 @@ window.onload = function() {
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
+
 };
 </script>
 <!-- //AOS animation injected  -->
